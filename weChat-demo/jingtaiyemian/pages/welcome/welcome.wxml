@@ -1,0 +1,7 @@
+<view class="container">
+    <image class="avatar" src="/image/zvihou.png"></image>
+    <text class="motto">Hello, 王东</text>
+    <view class="journey-container" bindtap="onTap">
+        <text class="journey">开启小程序之旅</text>
+    </view>
+</view>

@@ -1,0 +1,17 @@
+body {
+	background-image: url('https://cruciality.files.wordpress.com/2010/11/mist.jpg'); ;
+	font: 12px/1.5 Tahoma,Helvetica,Arial,'宋体',sans-serif;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 10%;
+
+}
+#id-div-chart {
+	width: 600px;
+    height: 400px;
+    margin: 0 auto;
+
+}
+

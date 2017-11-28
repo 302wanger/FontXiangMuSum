@@ -1,0 +1,93 @@
+/* 完成的样式 */
+.done {
+    background-color: #4fc08d;
+    border-radius: 2em;
+}
+/*标题*/
+.todo-title {
+	margin-left: 44%;
+	font-size: 33px;
+}
+
+#todo-comment {
+	margin-left: 32%;
+}
+
+body {
+	background-color: Tomato;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.todo-form {
+	text-align: center;
+}
+
+/*input区域*/
+#id-input-todo {
+	margin-top: 30px;
+	padding-left: 30px;
+	width: 400px;
+	height: 40px;
+	border-radius: 28px;
+}
+
+#id-button-add {
+	font-size: 14px;
+    margin: 0 .5em;
+    border-radius: 2em;
+    padding: 0.75em 1.5em;
+    cursor: pointer;
+    background: white;
+    color: #2d7c58;
+    border: 1px solid;
+    letter-spacing: 1px;
+    border: #4fc08d 1px solid;
+    transition: box-shadow 0.5s;
+    -webkit-transition: box-shadow 0.5s;
+}
+
+#id-button-add:hover {
+	color: black;
+    background: #4fc08d;
+}
+
+
+/*内容区域*/
+#id-div-container {
+	background-color: white;
+	width: 500px;
+	margin-left: 34%;
+	margin-top: 10%;
+	padding: 3%;
+	border-radius: 21px;
+}
+
+.todo-cell {
+	
+	margin-bottom: 10px;
+}
+
+.todo-done, .todo-delete {
+	font-size: 13px;
+    margin: 0 .5em;
+    border-radius: 2em;
+    padding: 0.75em 1.5em;
+    cursor: pointer;
+    background: white;
+    color: #2d7c58;
+    border: 1px solid;
+    letter-spacing: 1px;
+    border: #4fc08d 1px solid;
+    transition: box-shadow 0.5s;
+    -webkit-transition: box-shadow 0.5s;
+}
+
+.todo-done:hover {
+	color: black;
+    background: #4fc08d;
+}
+
+.todo-delete:hover {
+	color: black;
+    background: red;
+}
