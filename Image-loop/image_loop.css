@@ -1,0 +1,102 @@
+body {
+    text-align:center;
+}
+
+.head-title {
+    margin-top: 5%;
+    font-size: 28px;
+}
+.wang-3 {
+    margin:0 auto; 
+    width:400px; 
+    height:100px; 
+    margin-top: 4%;
+}
+ 
+
+.wang-hide {
+    display: none;
+}
+.wang-menu-content {
+    height: 100px;
+    border: 1px solid red;
+}
+.wang-item {
+    /*display: inline-block;*/
+    /*opacity: 0.6;*/
+    filter: grayscale(100%);
+}
+.wang-item.wang-highlight {
+    filter: initial;
+    /*opacity: 1;*/
+}
+.wang-item.wang-highlight img {
+    width: 150px;
+    height: 150px;
+}
+img {
+    /*transition 这个 css 指定了某个属性发生变化的时候自动使用动画效果和动画时间*/
+    transition: width 1s, height 1s;
+}
+.wang-item img {
+    width: 100px;
+    height: 100px;
+}
+
+/*3. 轮播图*/
+.wang-slide {
+    position: relative;
+    width: 440px;
+}
+.wang-slide-image {
+    display: none;
+}
+/*wang-slide-image*/
+.wang-active {
+    display: inline-block;
+}
+.wang-slide-button {
+    height: 50px;
+    width: 30px;
+    background: black;
+    opacity: 0.3;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.wang-left {
+    left: 0;
+}
+.wang-right {
+    right: 0;
+}
+/*
+.wang-vertical-center 是用来垂直居中一个元素的套路 css
+*/
+.wang-vertical-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.wang-slide-indicators {
+    /*position: relative;
+    bottom: 30px;
+    text-align: center;*/
+    position: absolute;
+    /* left 是相对父元素来移动的 */
+    left: 50%;
+    bottom: 30px;
+    text-align: center;
+    /* translate 是相对元素本身来移动的 */
+    transform: translateX(-50%);
+}
+.wang-slide-indi {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: red;
+}
+.wang-white {
+    background: white;
+}
