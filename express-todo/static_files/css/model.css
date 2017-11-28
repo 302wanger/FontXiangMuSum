@@ -1,0 +1,112 @@
+body {
+	background-color: #4fc08d !important;
+	font-family: 'Montserrat', sans-serif;
+}
+/* 完成的样式 */
+.completed {
+    text-decoration: line-through;
+    border-radius: 2em;
+}
+
+/*标题*/
+.todo-title {
+	margin-left: 44%;
+	font-size: 33px;
+	margin-top: 10%;
+	margin-bottom: 6%;
+}
+
+.todo-form {
+	text-align: center;
+}
+
+
+/*input区域*/
+#id-div-todo-input {
+	width: 600px;
+	margin: 0 auto;
+
+}
+
+#id-input-task {
+	border-radius: 28px;
+	height: 50px;
+}
+
+
+#id-button-add {
+	font-size: 14px;
+	margin-left: 10px;
+    border-radius: 24px;
+    cursor: pointer;
+    background: white;
+    color: black;
+    letter-spacing: 1px;
+    transition: box-shadow 0.5s;
+    -webkit-transition: box-shadow 0.5s;
+    height: 50px;
+}
+
+
+/*#id-button-add:hover {
+
+    font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+}
+*/
+
+
+
+/*内容区域*/
+
+#id-div-todo-container {
+	background-color: white;
+/*	width: 800px;*/
+	border-radius: 21px;
+	margin: 0 auto;
+	margin-top: 5%;
+	padding: 1%;
+}
+
+.todo-cell {
+	background:#fff;
+ 	border: none !important;
+}
+
+.todo-task {
+	margin-left: 30px;
+}
+
+
+.todo-complete, .todo-delete {
+	font-size: 13px;
+    margin: 0 .5em;
+    border-radius: 2em;
+    padding: 0.75em 1.5em;
+    cursor: pointer;
+    background: white;
+    color: #2d7c58;
+    border: 1px solid;
+    letter-spacing: 1px;
+    border: #4fc08d 1px solid;
+    transition: box-shadow 0.5s;
+    -webkit-transition: box-shadow 0.5s;
+}
+
+/*.todo-complete:hover {
+	color: black;
+    background: #4fc08d;
+}*/
+
+/*.todo-delete:hover {
+	color: black;
+    background: red;
+}
+*/
