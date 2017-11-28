@@ -25,20 +25,19 @@
 2. 点击图片下方小圆点进行图片切换
 3. 图片自动轮播
 
-![](http://ww1.sinaimg.cn/large/41e13d0bly1flxsw1pdvej20lo0j8afi.jpg)
-
+![](sumJietu/img-loop.png)
 
 ## 2.豆瓣数据可视化
 ![](http://wx2.sinaimg.cn/mw690/41e13d0bly1fjpaqhdbg3j20g30r8jtg.jpg)
 
 ## 3.Express实现todo应用
-![](http://ww1.sinaimg.cn/large/41e13d0bly1flxsz3pybxj21yu160td7.jpg)
+![](sumJietu/todo.png)
 
 ## 6.网页版天气预报
-![](http://ww1.sinaimg.cn/large/41e13d0bly1flxt1bdrf1j216e0t0npd.jpg)
+![](sumJietu/web-pre.jpg)
 
 ## 7.React音乐播放器
-![](http://ww1.sinaimg.cn/large/41e13d0bly1flxt2hjtkaj21yw12wgrs.jpg)
+![](sumJietu/React_music_player.png)
 
 
 
