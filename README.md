@@ -13,6 +13,7 @@
 7. React音乐播放器
 8. 个人静态网站：http://www.redwangpangzi.com
 9. 利用Node和构建的多人博客项目(doing)
+10. 河南鑫隆汽配有限公司 网址：http://www.redwangpangzi.com/xiangmu/xinLong/index.html
 
 
 
