@@ -1,0 +1,151 @@
+body {
+    padding-bottom: 40px;
+    color: #5a5a5a;
+}
+
+
+/*导航条*/
+
+/*导航条位置固定*/
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2000;
+}
+
+/*距离左右边界的距离*/
+.navbar-wrapper .navbar {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/*图表宽度自适应*/
+.navbar-wrapper .navbar .container {
+    width: auto;
+}
+
+/*轮播图*/
+
+/*轮播图容器高度*/
+.carousel {
+    height: 800px;
+    margin-bottom: 60px;
+}
+
+.carousel-caption {
+    z-index: 10;
+}
+
+
+.carousel .item {
+    height: 800px;
+    background-color: #777;
+}
+
+/*轮播图图片展示高度*/
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 8s00px;
+}
+
+
+/*内容*/
+
+/*三段展示*/
+.marketing .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.marketing h2 {
+    font-weight: normal;
+}
+.marketing .col-lg-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+/*about 内容*/
+.about-content {
+    margin-top: 10%;
+    text-align: center;
+}
+.about-content p {
+    width: 800px;
+    margin: 20px auto;
+    letter-spacing: 0.25em;
+    line-height: 24px;
+}
+
+.class-about-honour {
+    line-height: 24px;
+    letter-spacing: 0.25em;
+    margin-top: 1%;
+    list-style-type:none;
+}
+
+/*联系我们内容*/
+
+.class-qiye-connect {
+    margin-top: 2%;
+    letter-spacing: 0.2em;
+    line-height: 1.5em;
+}
+
+
+    /*分割线*/
+.featurette-divider {
+    margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/*内容标题*/
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+.class-connect-content h1 {
+    background-color: silver;
+}
+
+/*媒体查询*/
+
+@media (min-width: 768px) {
+    /* Navbar positioning foo */
+    .navbar-wrapper {
+        margin-top: 20px;
+    }
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    /* The navbar becomes detached from the top, so we round the corners */
+    .navbar-wrapper .navbar {
+        border-radius: 4px;
+    }
+
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .featurette-heading {
+        margin-top: 120px;
+    }
+}
