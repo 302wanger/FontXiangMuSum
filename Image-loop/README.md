@@ -11,7 +11,7 @@
 2. 点击图片下方小圆点进行图片切换
 3. 图片自动轮播
 
-下面是截图
+
 ![jietu](jietu/jietu.png)
 
 
@@ -43,7 +43,7 @@
 
 ## Authors
 
-* ** 302wanger ** - *Initial work* - [PurpleBooth](https://github.com/302wanger)
+** 302wanger ** - *Initial work* - [PurpleBooth](https://github.com/302wanger)
 
 
 ## License
