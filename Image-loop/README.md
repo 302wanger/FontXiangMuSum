@@ -43,7 +43,7 @@
 
 ## Authors
 
-** 302wanger ** - *Initial work* - [PurpleBooth](https://github.com/302wanger)
+**302wanger** - *Initial work* - [PurpleBooth](https://github.com/302wanger)
 
 
 ## License
